@@ -1,0 +1,130 @@
+CRITICAL - 2023-01-06 16:34:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:35:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:35:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:35:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:35:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:35:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:38:40 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:39:16 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:39:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 16:39:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-06 09:49:56 --> Invalid file: main.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('main', [], true)
+ 3 APPPATH\Controllers\KpiController.php(10): view('main')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->main()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 09:50:32 --> Invalid file: main.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('main', [], true)
+ 3 APPPATH\Controllers\KpiController.php(10): view('main')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->main()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 10:49:49 --> Invalid file: templates/body.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/body.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/body', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/main', [], true)
+ 4 APPPATH\Controllers\KpiController.php(10): view('rrhh/main')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->main()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 10:50:01 --> Invalid file: templates/body.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/body.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/body', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/main', [], true)
+ 4 APPPATH\Controllers\KpiController.php(10): view('rrhh/main')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->main()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:20:35 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\kpi-rrhh\system\Helpers\url_helper.php on line 88
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(88): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(107): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\rrhh\main.php(7): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rrhh\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('rrhh/main', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/add', [], true)
+ 8 APPPATH\Controllers\KpiController.php(14): view('rrhh/add')
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->ausentismo()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:24:41 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\kpi-rrhh\system\Helpers\url_helper.php on line 88
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(88): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(107): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\rrhh\main.php(7): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rrhh\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('rrhh/main', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/add', [], true)
+ 8 APPPATH\Controllers\KpiController.php(14): view('rrhh/add')
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->ausentismo()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:31:21 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\kpi-rrhh\system\Helpers\url_helper.php on line 88
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(88): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(107): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\rrhh\main.php(7): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rrhh\\main.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('rrhh/main', [], true)
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/add', [], true)
+ 8 APPPATH\Controllers\KpiController.php(14): view('rrhh/add')
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->ausentismo()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
