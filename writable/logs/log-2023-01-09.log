@@ -1,0 +1,340 @@
+CRITICAL - 2023-01-09 08:54:14 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\KpiController.php on line 30.
+ 1 APPPATH\Controllers\KpiController.php(30): explode('/n', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->convertArray()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 08:54:30 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\KpiController.php on line 30.
+ 1 APPPATH\Controllers\KpiController.php(30): explode('\\n', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->convertArray()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 08:55:36 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\KpiController.php on line 30.
+ 1 APPPATH\Controllers\KpiController.php(30): explode('
+', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->convertArray()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 09:39:33 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\KpiController.php on line 30.
+ 1 APPPATH\Controllers\KpiController.php(30): explode('	', [...])
+ 2 APPPATH\Controllers\KpiController.php(47): App\Controllers\KpiController->convertArray()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 09:41:33 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\KpiController.php on line 30.
+ 1 APPPATH\Controllers\KpiController.php(30): explode('	', [...])
+ 2 APPPATH\Controllers\KpiController.php(47): App\Controllers\KpiController->convertArray()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 09:42:06 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\KpiController.php on line 30.
+ 1 APPPATH\Controllers\KpiController.php(30): explode('	', [...])
+ 2 APPPATH\Controllers\KpiController.php(47): App\Controllers\KpiController->convertArray()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 10:56:58 --> Allowed fields must be specified for model: App\Models\Kpi
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Kpi')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\KpiController.php(19): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\KpiController.php(68): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 11:04:57 --> Allowed fields must be specified for model: App\Models\Kpi
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Kpi')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\KpiController.php(19): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\KpiController.php(68): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:14:26 --> Allowed fields must be specified for model: App\Models\Kpi
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Kpi')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\KpiController.php(19): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\KpiController.php(68): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:27:07 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\kpi-rrhh\system\Model.php on line 805
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get('w_settings', 1)
+ 2 APPPATH\Controllers\KpiController.php(15): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\KpiController.php(74): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:31:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\KpiController.php on line 15.
+ 1 APPPATH\Controllers\KpiController.php(74): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:34:30 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\kpi-rrhh\system\Model.php on line 805
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get('w_settings', 1)
+ 2 APPPATH\Controllers\KpiController.php(15): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\KpiController.php(74): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:34:49 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\kpi-rrhh\system\Model.php on line 805
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get('w_settings', 1)
+ 2 APPPATH\Controllers\KpiController.php(15): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\KpiController.php(74): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:38:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\KpiController.php on line 15.
+ 1 APPPATH\Controllers\KpiController.php(74): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:41:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\KpiController.php on line 16.
+ 1 APPPATH\Controllers\KpiController.php(75): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:41:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\KpiController.php on line 16.
+ 1 APPPATH\Controllers\KpiController.php(75): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:49:43 --> Object of type App\Models\Kpi is not callable
+in APPPATH\Controllers\KpiController.php on line 15.
+ 1 APPPATH\Controllers\KpiController.php(74): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 12:53:46 --> Call to undefined method App\Models\Kpi::getResult
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(17): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\KpiController.php(75): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:03:35 --> Undefined array key "nombre"
+in APPPATH\Controllers\KpiController.php on line 24.
+ 1 APPPATH\Controllers\KpiController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Controllers\\KpiController.php', 24)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:03:39 --> Undefined array key "nombre"
+in APPPATH\Controllers\KpiController.php on line 24.
+ 1 APPPATH\Controllers\KpiController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Controllers\\KpiController.php', 24)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:03:48 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 24.
+ 1 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:04:59 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 25.
+ 1 APPPATH\Controllers\KpiController.php(84): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:05:03 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 25.
+ 1 APPPATH\Controllers\KpiController.php(84): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:05:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 25.
+ 1 APPPATH\Controllers\KpiController.php(84): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:15:40 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 18.
+ 1 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:15:55 --> Cannot access offset of type string on string
+in APPPATH\Controllers\KpiController.php on line 18.
+ 1 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:16:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:17:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:17:13 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 20.
+ 1 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:17:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:17:49 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KpiController.php on line 20.
+ 1 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:19:11 --> Call to undefined method App\Models\Kpi::get_array
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(15): CodeIgniter\Model->__call('get_array', [])
+ 2 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 3 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:19:20 --> Call to undefined method App\Models\Kpi::get_array
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(15): CodeIgniter\Model->__call('get_array', [])
+ 2 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 3 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:19:26 --> Call to undefined method App\Models\Kpi::get_array
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(15): CodeIgniter\Model->__call('get_array', [])
+ 2 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 3 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:37:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:38:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:39:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Controllers\KpiController.php on line 16.
+ 1 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:39:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:41:38 --> Call to a member function result_array() on array
+in APPPATH\Controllers\KpiController.php on line 20.
+ 1 APPPATH\Controllers\KpiController.php(26): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:42:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Controllers\KpiController.php on line 16.
+ 1 APPPATH\Controllers\KpiController.php(27): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(88): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 13:42:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Controllers\KpiController.php on line 16.
+ 1 APPPATH\Controllers\KpiController.php(27): App\Controllers\KpiController->searchIndicador('AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(88): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

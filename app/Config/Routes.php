@@ -35,9 +35,11 @@ $routes->set404Override();
 $kpi = 'kpi/rrhh';
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get("/", 'Home::index');
-$routes->get("/{$kpi}/inicio", 'KpiController::main');
-$routes->get("/{$kpi}/ausentismo", 'KpiController::ausentismo');
+// $routes->get("/", 'Home::index');
+// $routes->get("/{$kpi}/inicio", 'KpiController::main');
+$routes->get("/{$kpi}", 'KpiController::ausentismo');
+$routes->post("/{$kpi}/obtener", 'KpiController::getData');
+$routes->post("/{$kpi}/obtener-valores", 'KpiController::getValues');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
