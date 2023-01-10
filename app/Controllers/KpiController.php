@@ -4,39 +4,14 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Kpi;
+use App\Models\Concepto;
 use CodeIgniter\Database\Query;
-
+use App\Controllers\IndicatorController;
+use App\Controllers\ConceptController;
 class KpiController extends Controller
 {
-    function searchIndicador($indicador)
-    {
-        $kpi = new Kpi();
-        $query =    $kpi->where('nombre', $indicador)
-                        ->get();
-        $data = $query->getRowArray();
-        // foreach($data[0] as $regis){
-        //     // echo $regis['nombre'];
-        // }
-        print_r($data['nombre']);
-    }
+    use IndicatorController, ConceptController;
 
-    function addIndicador($indicador)
-    {
-        $getIndicador = new KpiController;
-        $arregloIndicador = ($getIndicador->searchIndicador($indicador));
-        // print_r($arregloIndicador[0]['nombre']);
-        print_r($arregloIndicador);
-        $kpi = new Kpi();
-        die();
-        $data = [
-            'nombre'=> $indicador,
-            'detallado' => 'KPI RECURSOS HUMANOS',
-            'tipo' => 'M',
-            'area' => 'RRHH'
-        ];
-        
-        $kpi->insert($data);
-    }
     function main()
     {
         return view('rrhh/main');
@@ -45,6 +20,7 @@ class KpiController extends Controller
     {
         return view('rrhh/kpi');
     }
+
     public function getData()
     {
         if (!empty($_POST['dato'])) {
@@ -71,22 +47,37 @@ class KpiController extends Controller
         }
         return array($convert, $getIndicador[0]);
     }
-    function getValues()
-    {
-        $getConvert = new KpiController;
-        $getIndicador = new KpiController;
+    function getDate(){
+        $valor = $arreglo;
 
-        $data = $getConvert->convertArray();
+        $valorArreglo = array();
+
+
+        for ($i = 1; $i < 3; $i++) { 
+            $valor = $arreglo[$i];
+            array_push($valorArreglo, $valor);
+        }
+
+    $fechas = $arreglo[0];
+    $fecha = end($fechas);
+
+    $datos = array($conceptoArreglo, $fecha, $valorArreglo);
+    return $datos;
+    }
+    
+    function getValues()
+    {   
+        $kpi = new KpiController;
+        $data = $kpi->convertArray();
+
         list($array, $indicador) = $data;
 
         $long = count($array[1]);
         for ($i = 0; $i < $long; $i++) {
             unset($array[$i][0]);
         }
-        // GUARDAR LOS INDICADORES
-        $getIndicador->addIndicador($indicador);
-        // echo "<pre>";
-        // print_r($array);
-        // echo "</pre>";
+        $this->getDate();
+        $this->addIndicador($indicador); echo "<br>";
+        $this->addConcepto(); echo "<br>";
     }
 }

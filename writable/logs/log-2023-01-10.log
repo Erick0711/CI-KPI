@@ -1,0 +1,1022 @@
+ERROR - 2023-01-10 06:18:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`concepto`, CONSTRAINT `concepto_ibfk_1` FOREIGN KEY (`id_kpi`) REFERENCES `indicador` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(49): App\Controllers\KpiController->addConcepto()
+#9 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(103): App\Controllers\KpiController->addIndicador('AUSENTISMO LABO...')
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#11 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#12 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-01-10 06:54:36 --> Object of class App\Controllers\KpiController could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\KpiController.php(16): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(47): App\Controllers\KpiController->searchIndicador(Object(App\Controllers\KpiController))
+ 9 APPPATH\Controllers\KpiController.php(126): App\Controllers\KpiController->addConcepto(Object(App\Controllers\KpiController), [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 06:57:40 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(128): App\Controllers\KpiController->addConcepto(Array, Array)
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#11 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-01-10 06:59:01 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(130): App\Controllers\KpiController->addConcepto(Array, Array)
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#11 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-01-10 07:00:06 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(130): App\Controllers\KpiController->addConcepto(Array, Array)
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#11 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-01-10 07:26:14 --> mysqli_sql_exception: Unknown column 'concept' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(142): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:26:14 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(142): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:27:00 --> mysqli_sql_exception: Unknown column 'concept' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:27:00 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:27:10 --> mysqli_sql_exception: Unknown column 'concept' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:27:10 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:27:29 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:27:29 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:28:28 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:28:28 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:28:42 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:28:42 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:29:10 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:29:10 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:29:32 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:30:00 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(142): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:30:07 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(142): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:30:32 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:31:44 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-10 07:31:44 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:32:11 --> Call to undefined method App\Models\Kpi::getResult
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(26): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept([...])
+ 3 APPPATH\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 07:36:16 --> Call to undefined method App\Models\Kpi::getRow
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(26): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept([...])
+ 3 APPPATH\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 07:36:27 --> Call to undefined method App\Models\Kpi::getRow
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(26): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\KpiController.php(60): App\Controllers\KpiController->searchConcept([...])
+ 3 APPPATH\Controllers\KpiController.php(143): App\Controllers\KpiController->addConcepto([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:36:47 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:36:47 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 07:36:55 --> Call to undefined method App\Models\Kpi::getRow
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(27): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 3 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 07:37:01 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\KpiController.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\KpiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\KpiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\KpiController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\KpiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:37:09 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:37:09 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:39:01 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:39:01 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:39:10 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:39:10 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 07:40:33 --> mysqli_sql_exception: Unknown column 'descripcion' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto(Array, Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 07:40:33 --> Call to a member function result() on bool
+in APPPATH\Controllers\KpiController.php on line 27.
+ 1 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 2 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 07:41:45 --> Array to string conversion
+in APPPATH\Controllers\KpiController.php on line 28.
+ 1 APPPATH\Controllers\KpiController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\KpiController.php', 28)
+ 2 APPPATH\Controllers\KpiController.php(61): App\Controllers\KpiController->searchConcept([...])
+ 3 APPPATH\Controllers\KpiController.php(144): App\Controllers\KpiController->addConcepto([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:20:55 --> Undefined array key "descripcion"
+in APPPATH\Controllers\KpiController.php on line 64.
+ 1 APPPATH\Controllers\KpiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Controllers\\KpiController.php', 64)
+ 2 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:30:39 --> Array to string conversion
+in APPPATH\Controllers\KpiController.php on line 152.
+ 1 APPPATH\Controllers\KpiController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\KpiController.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:39:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 76.
+ 1 APPPATH\Controllers\KpiController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 76)
+ 2 APPPATH\Controllers\KpiController.php(150): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:39:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 76.
+ 1 APPPATH\Controllers\KpiController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 76)
+ 2 APPPATH\Controllers\KpiController.php(150): App\Controllers\KpiController->addConcepto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:58:07 --> Undefined array key 1
+in APPPATH\Controllers\KpiController.php on line 133.
+ 1 APPPATH\Controllers\KpiController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\KpiController.php', 133)
+ 2 APPPATH\Controllers\KpiController.php(145): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 09:08:15 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\KpiController.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\KpiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\KpiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\KpiController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\KpiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 10:49:32 --> Call to undefined method App\Models\Indicator::searchIndicador
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\IndicatorController.php(21): CodeIgniter\Model->__call('searchIndicador', [...])
+ 2 APPPATH\Controllers\KpiController.php(153): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 10:51:26 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\KpiController.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 10:52:33 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\KpiController.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 10:54:40 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\KpiController.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:22:49 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\KpiController.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:27:29 --> Allowed fields must be specified for model: App\Models\Indicator
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Indicator')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\IndicatorController.php(27): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:28:15 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\KpiController.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:28:30 --> Allowed fields must be specified for model: App\Models\Indicator
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Indicator')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\IndicatorController.php(27): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:32:16 --> Call to undefined method App\Models\Indicator::searchIndicador
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\IndicatorController.php(21): CodeIgniter\Model->__call('searchIndicador', [...])
+ 2 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:33:18 --> Call to undefined method App\Controllers\KpiController::searchIndicador()
+in APPPATH\Controllers\IndicatorController.php on line 20.
+ 1 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:35:42 --> Call to undefined method App\Models\Indicator::searchIndicador
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\IndicatorController.php(21): CodeIgniter\Model->__call('searchIndicador', [...])
+ 2 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:35:57 --> Call to undefined method App\Models\Indicator::searchIndicador
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\IndicatorController.php(21): CodeIgniter\Model->__call('searchIndicador', [...])
+ 2 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:38:57 --> Call to undefined method App\Controllers\KpiController::searchIndicador()
+in APPPATH\Controllers\IndicatorController.php on line 21.
+ 1 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:40:00 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\IndicatorController.php(21): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:40:29 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\IndicatorController.php(22): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->addIndicador('AUSENTISMO LABORAL')
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:41:50 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:42:59 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(152): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:45:05 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:48:20 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:49:04 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:49:12 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:50:05 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:51:07 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:52:08 --> Call to undefined method App\Models\Indicator::getRowArray
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('getRowArray', [])
+ 2 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:52:25 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:54:53 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator(Object(App\Models\Indicator))
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 11:59:46 --> Object of class App\Models\Indicator could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 6 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\IndicatorController.php(13): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\KpiController.php(151): App\Controllers\KpiController->searchIndicator('AUSENTISMO LABORAL')
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:45:31 --> Class "App\Models\Concepto" not found
+in APPPATH\Controllers\ConceptController.php on line 12.
+ 1 APPPATH\Controllers\ConceptController.php(60): App\Controllers\KpiController->instanceConcepto()
+ 2 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:45:58 --> Class "App\Models\Concepto" not found
+in APPPATH\Controllers\ConceptController.php on line 12.
+ 1 APPPATH\Controllers\ConceptController.php(60): App\Controllers\KpiController->instanceConcepto()
+ 2 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:50:33 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\ConceptController.php on line 48.
+ 1 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:51:42 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\ConceptController.php on line 50.
+ 1 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:56:12 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\ConceptController.php on line 50.
+ 1 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:57:39 --> Cannot instantiate trait App\Controllers\IndicatorController
+in APPPATH\Controllers\ConceptController.php on line 51.
+ 1 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:57:57 --> Call to undefined method App\Controllers\KpiController::searchIndicador()
+in APPPATH\Controllers\ConceptController.php on line 52.
+ 1 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 12:59:04 --> Too few arguments to function App\Controllers\KpiController::searchIndicator(), 0 passed in C:\xampp\htdocs\kpi-rrhh\app\Controllers\ConceptController.php on line 52 and exactly 1 expected
+in APPPATH\Controllers\IndicatorController.php on line 14.
+ 1 APPPATH\Controllers\ConceptController.php(52): App\Controllers\KpiController->searchIndicator()
+ 2 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:01:37 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ConceptController.php on line 44.
+ 1 APPPATH\Controllers\ConceptController.php(49): App\Controllers\KpiController->getConcept()
+ 2 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-10 13:09:41 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\ConceptController.php(53): App\Controllers\KpiController->searchIndicator(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-10 13:09:41 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\IndicatorController.php on line 18.
+ 1 APPPATH\Controllers\ConceptController.php(53): App\Controllers\KpiController->searchIndicator([...])
+ 2 APPPATH\Controllers\KpiController.php(138): App\Controllers\KpiController->addConcepto()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:41:59 --> Trait "App\Controllers\ValueController" not found
+in APPPATH\Controllers\KpiController.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

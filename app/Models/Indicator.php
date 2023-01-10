@@ -3,18 +3,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Kpi extends Model{
-    protected $table = 'kpi_data';
+class Indicator extends Model{
+    protected $table = 'indicador';
     // Uncomment below if you want add primary key
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
 
     protected $allowedFields  = [
-        'sucursal',
-        'concepto_id',
-        'periodo',
-        'tipo_combustible',
-        'producto',
-        'valor'
+        'nombre',
+        'detallado',
+        'tipo',
+        'area'
     ];
 }
