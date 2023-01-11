@@ -3,3 +3,667 @@ in SYSTEMPATH\CodeIgniter.php on line 222.
  1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
  2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
  3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-11 06:13:30 --> Call to undefined method App\Controllers\KpiController::getDate()
+in APPPATH\Controllers\KpiController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 06:17:05 --> Undefined array key 2
+in APPPATH\Controllers\KpiController.php on line 65.
+ 1 APPPATH\Controllers\KpiController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\KpiController.php', 65)
+ 2 APPPATH\Controllers\KpiController.php(87): App\Controllers\KpiController->getDateValor()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 06:31:25 --> Array to string conversion
+in APPPATH\Controllers\KpiController.php on line 79.
+ 1 APPPATH\Controllers\KpiController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\KpiController.php', 79)
+ 2 APPPATH\Controllers\KpiController.php(93): App\Controllers\KpiController->addDataValue()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->getValues()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 07:06:02 --> Undefined array key "id"
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\KpiController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 07:11:42 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\KpiController.php on line 91.
+ 1 APPPATH\Controllers\KpiController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\KpiController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:10:31 --> Undefined array key "id"
+in APPPATH\Controllers\KpiController.php on line 89.
+ 1 APPPATH\Controllers\KpiController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\KpiController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:10:48 --> Call to undefined function App\Controllers\edn()
+in APPPATH\Controllers\KpiController.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:10:54 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\KpiController.php on line 89.
+ 1 APPPATH\Controllers\KpiController.php(89): end(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:11:08 --> Undefined array key "id"
+in APPPATH\Controllers\KpiController.php on line 89.
+ 1 APPPATH\Controllers\KpiController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\KpiController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:19:10 --> Array to string conversion
+in APPPATH\Controllers\KpiController.php on line 100.
+ 1 APPPATH\Controllers\KpiController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\KpiController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:20:25 --> end(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\KpiController.php on line 98.
+ 1 APPPATH\Controllers\KpiController.php(98): end('67')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:25:17 --> Undefined array key "id"
+in APPPATH\Controllers\KpiController.php on line 101.
+ 1 APPPATH\Controllers\KpiController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\KpiController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-11 08:25:27 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:25:27 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:25:48 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:25:48 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:25:54 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:25:54 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:26:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:27:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:27:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:27:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:43:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:43:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:47:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:47:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:49:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:49:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:50:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-11 08:50:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`kpi_bd`.`kpi_data`, CONSTRAINT `kpi_data_ibfk_1` FOREIGN KEY (`concepto_id`) REFERENCES `concepto` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kp...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kp...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kp...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kp...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-11 08:53:04 --> Undefined array key "id"
+in APPPATH\Controllers\KpiController.php on line 96.
+ 1 APPPATH\Controllers\KpiController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\KpiController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:54:07 --> Undefined array key "id"
+in APPPATH\Controllers\KpiController.php on line 100.
+ 1 APPPATH\Controllers\KpiController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\KpiController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:57:06 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 95.
+ 1 APPPATH\Controllers\KpiController.php(95): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:57:55 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 95.
+ 1 APPPATH\Controllers\KpiController.php(95): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:03:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 95.
+ 1 APPPATH\Controllers\KpiController.php(95): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:04:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 95.
+ 1 APPPATH\Controllers\KpiController.php(95): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:05:04 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 95.
+ 1 APPPATH\Controllers\KpiController.php(95): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:15:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 95.
+ 1 APPPATH\Controllers\KpiController.php(95): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:16:54 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 96.
+ 1 APPPATH\Controllers\KpiController.php(96): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:42:14 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:43:07 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:44:09 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:44:36 --> Uninitialized string offset 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:44:42 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:45:08 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:45:11 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:45:32 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:46:25 --> Undefined array key 3
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:46:33 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:53:00 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:53:45 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:54:10 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:56:02 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:56:12 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:58:04 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:59:05 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 11:59:32 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:00:44 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:00:57 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:01:42 --> Uninitialized string offset 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:03:44 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:03:49 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:04:28 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\ConceptController.php on line 47.
+ 1 APPPATH\Controllers\ConceptController.php(47): array_push(null, 'AUSENTISMO LABORAL')
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:09:24 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:19:17 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:19:50 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:20:23 --> Undefined array key 2
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:20:31 --> Array to string conversion
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:20:34 --> Array to string conversion
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 12:22:05 --> Cannot use [] for reading
+in APPPATH\Controllers\ConceptController.php on line 43.
+ 1 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

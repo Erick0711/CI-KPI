@@ -39,7 +39,7 @@ $kpi = 'kpi/rrhh';
 // $routes->get("/{$kpi}/inicio", 'KpiController::main');
 $routes->get("/{$kpi}", 'KpiController::ausentismo');
 $routes->post("/{$kpi}/obtener", 'KpiController::getData');
-$routes->post("/{$kpi}/obtener-valores", 'KpiController::getValues');
+$routes->post("/{$kpi}/obtener-valores", 'KpiController::addAll');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

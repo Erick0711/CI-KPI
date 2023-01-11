@@ -33,22 +33,33 @@ trait ConceptController
     {
         $getConvert = new KpiController;
         $data = $getConvert->convertArray();
-        list($array, $indicador) = $data;
+        list($arrays, $indicador) = $data;
 
-        $arrayConcept = array();
+        // $arrayConcept = array();
+        echo "<pre>";
+            var_dump($arrays);
+            echo "</pre>";
+        // foreach ($arrays as $array) {
+        //     $concept = $array;
+        //     // array_push($arrayConcept, $concept);
+        //     echo "<pre>";
+        //     var_dump($concept);
+        //     echo "</pre>";
+        // }
 
-        for ($i = 1; $i < 3; $i++) {
-            $concept = $array[$i][1];
-            array_push($arrayConcept, $concept);
-        }
-        return array($arrayConcept, $indicador);
+        // for ($i = 1; $i < 3; $i++) {
+        //     $concept = $arrays[$i][1];
+        //     array_push($arrayConcept, $concept);
+        // }
+        // return array($arrayConcept, $indicador);
     }
 
     function addConcepto()
     {
         $arreglo = $this->getConcept();
-        list($concepts, $indicador) = $arreglo;
-
+        // list($concepts, $indicador) = $arreglo;
+        // print_r($concepts);
+        die();
         $indicador = $this->searchIndicator($indicador);
         $searchConcepts = $this->searchConcept($concepts);
 

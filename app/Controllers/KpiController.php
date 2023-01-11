@@ -47,28 +47,10 @@ class KpiController extends Controller
         }
         return array($convert, $getIndicador[0]);
     }
-    function getDate(){
-        $valor = $arreglo;
 
-        $valorArreglo = array();
-
-
-        for ($i = 1; $i < 3; $i++) { 
-            $valor = $arreglo[$i];
-            array_push($valorArreglo, $valor);
-        }
-
-    $fechas = $arreglo[0];
-    $fecha = end($fechas);
-
-    $datos = array($conceptoArreglo, $fecha, $valorArreglo);
-    return $datos;
-    }
-    
     function getValues()
     {   
-        $kpi = new KpiController;
-        $data = $kpi->convertArray();
+        $data = $this->convertArray();
 
         list($array, $indicador) = $data;
 
@@ -76,8 +58,51 @@ class KpiController extends Controller
         for ($i = 0; $i < $long; $i++) {
             unset($array[$i][0]);
         }
-        $this->getDate();
-        $this->addIndicador($indicador); echo "<br>";
+
+        $value = $array;
+
+        $arrayValue = array();
+
+        for ($i = 1; $i < 3; $i++) { 
+            $value = $array[$i];
+            array_push($arrayValue, $value);
+    }
+
+        $dates = $array[0];
+        $lastDate = end($dates);
+
+        // $this->addDataValue();
+        return array($array, $indicador, $lastDate, $arrayValue);
+    }
+
+    function addAll()
+    {
+        $kpi = new Kpi;
+        $array = $this->getValues();
+        list($array, $indicador, $lastDate, $arrayValue) = $array;
+        $data= $this->getConcept();
+
+        // $this->addIndicador($indicador); echo "<br>";
         $this->addConcepto(); echo "<br>";
+ 
+        // list($concept, $indicador) = $data;
+        // $search = $this->searchConcept($concept);
+        // $long = count($search);
+
+        // for ($i=0; $i < $long ; $i++) { 
+        //     $value = end($arrayValue[$i]);
+        //     $idConcept= $search[$i]['id'];
+
+        //     $kpiData = [
+        //         'sucursal' => '900',
+        //         'concepto_id' => $idConcept,
+        //         'periodo' => $lastDate,
+        //         'tipo_combustible' => '',
+        //         'producto' => '',
+        //         'valor' => $value
+        //     ];
+        //     $kpi->insert($kpiData);
+        //     echo $value;
+        // }
     }
 }
