@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/kpi-rrhh/public/';
+    public $baseURL = 'http://localhost:90/CI-KPI/public/';
     /**
      * --------------------------------------------------------------------------
      * Index File

@@ -1,6 +1,7 @@
+@import "../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../node_modules/bootstrap/scss/_variables-dark.scss";
 
-$custom-colors: (
-    "custom-color": #900a
-);
+
 
 @import "../../../../node_modules/bootstrap/scss/bootstrap";

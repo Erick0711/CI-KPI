@@ -1,14 +1,14 @@
 <?= $this->extend('rrhh/main'); ?>
 <?= $this->section('css') ?>
-<link rel="stylesheet" href="<?= base_url('/assets/css/style.css') ?>"> <?= $this->endSection() ?>
+<link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>"> <?= $this->endSection() ?>
 <?= $this->section('css') ?>
-<link rel="stylesheet" href="<?= base_url('/assets/css/bootstrap/bootstrap.css') ?>"> <?= $this->endSection() ?>
-<?= $this->section('title') ?>Kpi<?= $this->endSection() ?>
+<link rel="stylesheet" href="<?= base_url('assets/css/bootstrap/bootstrap.css') ?>"> <?= $this->endSection() ?>
+<?= $this->section('title') ?>RRHH<?= $this->endSection() ?>
 
 
 <?= $this->section('content') ?>
 <div class="container w-100 vh-100 position-relative d-flex justify-content-center align-items-center">
-    <div class="row w-50 p-2 border border-white rounded">
+    <div class="row w-50 p-2 border border-info-subtle rounded">
         <div class="col-md-12">
             <form action="<?= base_url('kpi/rrhh/obtener-valores') ?>" method="POST" autocomplete="off">
                 <div class="row">
@@ -17,7 +17,7 @@
                         <textarea name="dato" id="dato" class="form-control text-tarea"></textarea>
                     </div>
                     <div class="col-md-12">
-                        <input type="submit" value="Enviar" class="btn btn-warning btn-block w-100 text-center mt-3">
+                        <input type="submit" value="Enviar" class="btn btn-primary btn-block w-100 text-center mt-3">
                     </div>
                 </div>
             </form>
