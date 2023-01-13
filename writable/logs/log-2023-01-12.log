@@ -1,0 +1,424 @@
+CRITICAL - 2023-01-12 06:32:06 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 46.
+ 1 APPPATH\Controllers\ConceptController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 46)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:33:05 --> Uninitialized string offset 1
+in APPPATH\Controllers\ConceptController.php on line 46.
+ 1 APPPATH\Controllers\ConceptController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'APPPATH\\Controllers\\ConceptController.php', 46)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:37:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 58.
+ 1 APPPATH\Controllers\KpiController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 58)
+ 2 APPPATH\Controllers\KpiController.php(82): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:37:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\KpiController.php on line 58.
+ 1 APPPATH\Controllers\KpiController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\KpiController.php', 58)
+ 2 APPPATH\Controllers\KpiController.php(82): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:41:30 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:42:50 --> Undefined array key 2
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:42:55 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:44:06 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 40.
+ 1 APPPATH\Controllers\ConceptController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 40)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:48:59 --> Array to string conversion
+in APPPATH\Controllers\ConceptController.php on line 41.
+ 1 APPPATH\Controllers\ConceptController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ConceptController.php', 41)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:50:49 --> Undefined array key 3
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:50:59 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:51:13 --> Undefined array key 3
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:51:29 --> Cannot use [] for reading
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:52:35 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:58:28 --> Array to string conversion
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:58:43 --> Array to string conversion
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:59:35 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\ConceptController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\ConceptController.php', 42)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:02:48 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 50.
+ 1 APPPATH\Controllers\ConceptController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 50)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:03:09 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 50.
+ 1 APPPATH\Controllers\ConceptController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 50)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:03:52 --> Undefined array key 1
+in APPPATH\Controllers\ConceptController.php on line 49.
+ 1 APPPATH\Controllers\ConceptController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\ConceptController.php', 49)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:04:36 --> Undefined variable $long
+in APPPATH\Controllers\ConceptController.php on line 49.
+ 1 APPPATH\Controllers\ConceptController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $long', 'APPPATH\\Controllers\\ConceptController.php', 49)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:23:13 --> Cannot unset offset in a non-array variable
+in APPPATH\Controllers\ConceptController.php on line 42.
+ 1 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:24:42 --> Undefined variable $long
+in APPPATH\Controllers\ConceptController.php on line 48.
+ 1 APPPATH\Controllers\ConceptController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $long', 'APPPATH\\Controllers\\ConceptController.php', 48)
+ 2 APPPATH\Controllers\KpiController.php(83): App\Controllers\KpiController->getConcept()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:38:19 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\KpiController.php on line 94.
+ 1 APPPATH\Controllers\KpiController.php(94): end(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:38:28 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\KpiController.php on line 94.
+ 1 APPPATH\Controllers\KpiController.php(94): end(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:39:36 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\KpiController.php on line 94.
+ 1 APPPATH\Controllers\KpiController.php(94): end(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 07:42:04 --> Undefined variable $arrays
+in APPPATH\Controllers\KpiController.php on line 65.
+ 1 APPPATH\Controllers\KpiController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrays', 'APPPATH\\Controllers\\KpiController.php', 65)
+ 2 APPPATH\Controllers\KpiController.php(90): App\Controllers\KpiController->getValues()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:25:53 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:25:53 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:27:20 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:27:20 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:28:53 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:28:53 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:29:01 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:29:01 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:30:28 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:30:28 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:31:20 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:31:20 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 08:31:34 --> print_r() expects at most 2 arguments, 3 given
+in APPPATH\Controllers\KpiController.php on line 92.
+ 1 APPPATH\Controllers\KpiController.php(92): print_r('1', '5', '202210')
+ 2 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:33:23 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(113): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:33:23 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(113): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:33:37 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(113): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:33:37 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(113): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 08:34:45 --> Call to undefined method App\Models\Kpi::getResultArray
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(89): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\KpiController.php(112): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 08:36:04 --> mysqli_sql_exception: Unknown column 'value' in 'where clause' in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5\r', '202210\r')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 08:36:04 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 08:38:28 --> Undefined variable $dataKpi
+in APPPATH\Controllers\KpiController.php on line 93.
+ 1 APPPATH\Controllers\KpiController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataKpi', 'APPPATH\\Controllers\\KpiController.php', 93)
+ 2 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('1', '5', '202210')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

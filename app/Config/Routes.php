@@ -37,7 +37,7 @@ $kpi = 'kpi/rrhh';
 // route since we don't have to scan directories.
 // $routes->get("/", 'Home::index');
 // $routes->get("/{$kpi}/inicio", 'KpiController::main');
-$routes->get("/{$kpi}", 'KpiController::ausentismo');
+$routes->get("/{$kpi}", 'Home::ausentismo');
 $routes->post("/{$kpi}/obtener", 'KpiController::getData');
 $routes->post("/{$kpi}/obtener-valores", 'KpiController::addAll');
 /*

@@ -12,13 +12,10 @@ class KpiController extends Controller
 {
     use IndicatorController, ConceptController;
 
-    function main()
+    function instanceKpi()
     {
-        return view('rrhh/main');
-    }
-    function ausentismo()
-    {
-        return view('rrhh/kpi');
+        $instance = new Kpi;
+        return $instance;
     }
 
     public function getData()
@@ -59,11 +56,19 @@ class KpiController extends Controller
             unset($array[$i][0]);
         }
 
-        $value = $array;
 
+
+        $longConcept = array();
+        foreach($array as $key => $value)
+	    {
+            array_push($longConcept, $key);
+	    }
+
+        $long = count($longConcept);
+     
         $arrayValue = array();
 
-        for ($i = 1; $i < 3; $i++) { 
+        for ($i = 1; $i < $long; $i++) { 
             $value = $array[$i];
             array_push($arrayValue, $value);
     }
@@ -75,6 +80,18 @@ class KpiController extends Controller
         return array($array, $indicador, $lastDate, $arrayValue);
     }
 
+    
+   function searchKpiData($idConcept, $value, $lastDate)
+   {
+
+            $array = ['concepto_id' => $idConcept, 'periodo' => $lastDate, 'valor' => $value];
+            $query = $this->instanceKpi()->where($array)
+                                        ->get();
+            $data = $query->getRowArray();
+
+            return $data;
+   }
+
     function addAll()
     {
         $kpi = new Kpi;
@@ -82,27 +99,34 @@ class KpiController extends Controller
         list($array, $indicador, $lastDate, $arrayValue) = $array;
         $data= $this->getConcept();
 
-        // $this->addIndicador($indicador); echo "<br>";
+        $this->addIndicador($indicador); echo "<br>";
         $this->addConcepto(); echo "<br>";
  
-        // list($concept, $indicador) = $data;
-        // $search = $this->searchConcept($concept);
-        // $long = count($search);
+        list($concept, $indicador) = $data;
+        $search = $this->searchConcept($concept);
 
-        // for ($i=0; $i < $long ; $i++) { 
-        //     $value = end($arrayValue[$i]);
-        //     $idConcept= $search[$i]['id'];
+        $long = count($search);
 
-        //     $kpiData = [
-        //         'sucursal' => '900',
-        //         'concepto_id' => $idConcept,
-        //         'periodo' => $lastDate,
-        //         'tipo_combustible' => '',
-        //         'producto' => '',
-        //         'valor' => $value
-        //     ];
-        //     $kpi->insert($kpiData);
-        //     echo $value;
-        // }
+        for ($i=0; $i < $long ; $i++) { 
+            $value = end($arrayValue[$i]);
+            $idConcept= $search[$i]['id'];
+            $dataKpi = $this->searchKpiData($idConcept, $value, $lastDate);
+            if(isset($dataKpi))
+            {   
+                if($dataKpi['concepto_id'] != $idConcept && $dataKpi['periodo'] != $lastDate && $dataKpi['valor'] != $value){
+                    $kpiData = [
+                        'sucursal' => '900',
+                        'concepto_id' => $idConcept,
+                        'periodo' => $lastDate,
+                        'tipo_combustible' => '',
+                        'producto' => '',
+                        'valor' => $value
+                    ];
+                    $kpi->insert($kpiData);
+                }else{
+                    echo "Los datos ya existen";
+                }
+            }
+        }
     }
 }

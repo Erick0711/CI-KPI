@@ -4,8 +4,12 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    function main()
     {
-        return view('welcome_message');
+        return view('rrhh/main');
+    }
+    function ausentismo()
+    {
+        return view('rrhh/kpi');
     }
 }
