@@ -1,0 +1,84 @@
+CRITICAL - 2023-01-17 08:20:20 --> Call to undefined method App\Models\Kpi::getRowArray
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\KpiController.php(89): CodeIgniter\Model->__call('getRowArray', [])
+ 2 APPPATH\Controllers\KpiController.php(114): App\Controllers\KpiController->searchKpiData('17', '25', 'OCTUBRE 22')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 08:23:17 --> Class "CodeIgniter\Database\MySql\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySql', 'CodeIgniter\\Database\\MySql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(154): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\KpiController.php(96): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 09:11:09 --> syntax error, unexpected token ">"
+in APPPATH\Controllers\KpiController.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\KpiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\KpiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\KpiController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\KpiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 09:31:47 --> array_slice(): Argument #2 ($offset) must be of type int, string given
+in APPPATH\Controllers\KpiController.php on line 114.
+ 1 APPPATH\Controllers\KpiController.php(114): array_slice([...], 'SEPTIEMBRE 22')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 09:55:58 --> Array to string conversion
+in APPPATH\Controllers\KpiController.php on line 120.
+ 1 APPPATH\Controllers\KpiController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\KpiController.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 11:57:28 --> Undefined property: App\Controllers\LoginController::$agent
+in APPPATH\Controllers\LoginController.php on line 16.
+ 1 APPPATH\Controllers\LoginController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$agent', 'APPPATH\\Controllers\\LoginController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 11:58:56 --> Call to undefined method CodeIgniter\HTTP\UserAgent::platform()
+in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 12:00:17 --> Undefined property: App\Controllers\LoginController::$agent
+in APPPATH\Controllers\LoginController.php on line 16.
+ 1 APPPATH\Controllers\LoginController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$agent', 'APPPATH\\Controllers\\LoginController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 12:08:40 --> Undefined property: App\Controllers\LoginController::$load
+in APPPATH\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$load', 'APPPATH\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 12:11:17 --> Call to undefined method CodeIgniter\HTTP\UserAgent::platform()
+in APPPATH\Controllers\LoginController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 12:56:31 --> Class "CodeIgniter\Database\mssql\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mssql', 'CodeIgniter\\Database\\mssql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(154): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\KpiController.php(96): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

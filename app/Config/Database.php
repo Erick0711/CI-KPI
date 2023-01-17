@@ -32,11 +32,11 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => '127.0.0.1',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'kpi_bd',
-        'DBDriver' => 'MySQLi',
+        'hostname' => '192.168.100.201',
+        'username' => 'sa',
+        'password' => 'Biopetrol2018.sa',
+        'database' => 'dwh',
+        'DBDriver' => 'mssql',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
@@ -47,7 +47,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 1433,
     ];
 
     /**

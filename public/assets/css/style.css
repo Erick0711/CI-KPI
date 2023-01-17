@@ -6,17 +6,9 @@
 }
 
 .text-tarea {
-    height: 100px;
     width: 100%;
     resize: none;
 }
-
-/* .body{
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-    min-height: 640px;
-} */
-/* .footer{
-    margin-top: auto;
-} */
+.rgba-opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+}

@@ -18,5 +18,6 @@
     <?= $this->include('rrhh/templates/footer');?>
 
     <script src="<?= base_url('assets/js/particles.js') ?>"></script>
+    
 </body>
 </html>

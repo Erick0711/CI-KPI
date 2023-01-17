@@ -8,9 +8,10 @@ use App\Models\Concepto;
 use CodeIgniter\Database\Query;
 use App\Controllers\IndicatorController;
 use App\Controllers\ConceptController;
+use App\Controllers\DateController;
 class KpiController extends Controller
 {
-    use IndicatorController, ConceptController;
+    use IndicatorController, ConceptController, DateController;
 
     function instanceKpi()
     {
@@ -46,7 +47,7 @@ class KpiController extends Controller
     }
 
     function getValues()
-    {   
+    {
         $data = $this->convertArray();
 
         list($array, $indicador) = $data;
@@ -59,19 +60,18 @@ class KpiController extends Controller
 
 
         $longConcept = array();
-        foreach($array as $key => $value)
-	    {
+        foreach ($array as $key => $value) {
             array_push($longConcept, $key);
-	    }
+        }
 
         $long = count($longConcept);
-     
+
         $arrayValue = array();
 
-        for ($i = 1; $i < $long; $i++) { 
+        for ($i = 1; $i < $long; $i++) {
             $value = $array[$i];
             array_push($arrayValue, $value);
-    }
+        }
 
         $dates = $array[0];
         $lastDate = end($dates);
@@ -80,50 +80,70 @@ class KpiController extends Controller
         return array($array, $indicador, $lastDate, $arrayValue);
     }
 
-    
-   function searchKpiData($idConcept, $value, $lastDate)
-   {
 
-            $array = ['concepto_id' => $idConcept, 'periodo' => $lastDate, 'valor' => $value];
-            $query = $this->instanceKpi()->where($array)
-                                        ->get();
-            $data = $query->getRowArray();
+    function searchKpiData($idConcept, $value, $lastDate)
+    {
 
-            return $data;
-   }
+        $array = ['concepto_id' => $idConcept, 'periodo' => $lastDate, 'valor' => $value];
+        $query = $this->instanceKpi()->where($array)->get();
+        $data = $query->getRowArray();
+
+        return $data;
+    }
 
     function addAll()
     {
         $kpi = new Kpi;
         $array = $this->getValues();
         list($array, $indicador, $lastDate, $arrayValue) = $array;
-        $data= $this->getConcept();
 
-        $this->addIndicador($indicador); echo "<br>";
-        $this->addConcepto(); echo "<br>";
- 
+        // OBTENIENDO AÑO Y MES, CONVERTIDO A FORMATO 202101 O 202202 ++
+        $year = $this->getYear($lastDate);
+        $month = $this->getMonth($lastDate);
+        $newFormatDate = $year.$month;
+        echo $newFormatDate;
+
+        //  OBTENIENDO EL CONCEPTO
+        $data = $this->getConcept();       
+
+        // GUARDANDO Y VALIDANDO QUE NO EXISTA DATOS DUPLICADOS INDICADO Y CONCEPTO
+        $this->addIndicador($indicador);
+        echo "<br>";
+        $this->addConcepto();
+        echo "<br>";
+
         list($concept, $indicador) = $data;
         $search = $this->searchConcept($concept);
 
         $long = count($search);
-
-        for ($i=0; $i < $long ; $i++) { 
+        // GUADANDO TODOS LOS DATOS A LA TABLA PRINSIPAL DONDE RECORRERA CADA DATO
+        for ($i = 0; $i < $long; $i++) {
             $value = end($arrayValue[$i]);
-            $idConcept= $search[$i]['id'];
-            $dataKpi = $this->searchKpiData($idConcept, $value, $lastDate);
-            if(isset($dataKpi))
-            {   
-                if($dataKpi['concepto_id'] != $idConcept && $dataKpi['periodo'] != $lastDate && $dataKpi['valor'] != $value){
+            $idConcept = $search[$i]['id'];
+            $dataKpi = $this->searchKpiData($idConcept, $value, $newFormatDate);
+            if (empty($dataKpi)) {
+                $kpiData = [
+                    'sucursal' => '900',
+                    'concepto_id' => $idConcept,
+                    'periodo' => $newFormatDate,
+                    'tipo_combustible' => '',
+                    'producto' => '',
+                    'valor' => $value
+                ];
+                $kpi->insert($kpiData);
+            } else {
+
+                if ($dataKpi['concepto_id'] != $idConcept && $dataKpi['periodo'] != $newFormatDate && $dataKpi['valor'] != $value) {
                     $kpiData = [
                         'sucursal' => '900',
                         'concepto_id' => $idConcept,
-                        'periodo' => $lastDate,
+                        'periodo' => $newFormatDate,
                         'tipo_combustible' => '',
                         'producto' => '',
                         'valor' => $value
                     ];
                     $kpi->insert($kpiData);
-                }else{
+                } else {
                     echo "Los datos ya existen";
                 }
             }
