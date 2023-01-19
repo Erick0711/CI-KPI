@@ -14,6 +14,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <label for="" class="form-label text-white text-center"><h3><strong>Dato:</strong></h3></label>
+                        <?php if (session('menssage')) {?><?= session('menssage'); } ?>
                         <textarea name="dato" id="dato" rows="15" class="form-control text-tarea" required></textarea>
                     </div>
                     <div class="col-md-12">

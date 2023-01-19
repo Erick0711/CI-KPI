@@ -28,7 +28,17 @@ class KpiController extends Controller
             return "El post dato esta vacio";
         }
     }
-
+    function convertFloat($value)
+    {
+        
+        $deleteSpace = trim($value);
+        if(substr($deleteSpace, -1) == "%"){
+            $newValue = floatval($deleteSpace) / 100;
+            return $newValue;
+        }else{
+            return floatval($value);
+        }    
+    }
     function convertArray()
     {
         $getData = new KpiController;
@@ -81,19 +91,18 @@ class KpiController extends Controller
     }
 
 
-    function searchKpiData($idConcept, $value, $lastDate)
+    function searchKpiData($idConcept, $value, $newFormatDate)
     {
 
-        $array = ['concepto_id' => $idConcept, 'periodo' => $lastDate, 'valor' => $value];
-        $query = $this->instanceKpi()->where($array)->get();
+        $array = ['concepto_id' => $idConcept, 'periodo' => $newFormatDate, 'valor' => $value];
+        $query = $this->instanceKpi()->where($array)
+                                    ->get();
         $data = $query->getRowArray();
-
         return $data;
     }
 
     function addAll()
     {
-        $kpi = new Kpi;
         $array = $this->getValues();
         list($array, $indicador, $lastDate, $arrayValue) = $array;
 
@@ -106,47 +115,60 @@ class KpiController extends Controller
         //  OBTENIENDO EL CONCEPTO
         $data = $this->getConcept();       
 
-        // GUARDANDO Y VALIDANDO QUE NO EXISTA DATOS DUPLICADOS INDICADO Y CONCEPTO
-        $this->addIndicador($indicador);
-        echo "<br>";
-        $this->addConcepto();
-        echo "<br>";
-
+        // GUARDANDO Y VALIDANDO QUE NO EXISTA DATOS DUPLICADOS DE INDICADO Y CONCEPTO
+        $indicator = $this->searchIndicator($indicador);
         list($concept, $indicador) = $data;
-        $search = $this->searchConcept($concept);
+        $searchConcept = $this->searchConcept($concept);
 
-        $long = count($search);
-        // GUADANDO TODOS LOS DATOS A LA TABLA PRINSIPAL DONDE RECORRERA CADA DATO
-        for ($i = 0; $i < $long; $i++) {
-            $value = end($arrayValue[$i]);
-            $idConcept = $search[$i]['id'];
-            $dataKpi = $this->searchKpiData($idConcept, $value, $newFormatDate);
-            if (empty($dataKpi)) {
-                $kpiData = [
-                    'sucursal' => '900',
-                    'concepto_id' => $idConcept,
-                    'periodo' => $newFormatDate,
-                    'tipo_combustible' => '',
-                    'producto' => '',
-                    'valor' => $value
-                ];
-                $kpi->insert($kpiData);
-            } else {
-
-                if ($dataKpi['concepto_id'] != $idConcept && $dataKpi['periodo'] != $newFormatDate && $dataKpi['valor'] != $value) {
-                    $kpiData = [
-                        'sucursal' => '900',
-                        'concepto_id' => $idConcept,
-                        'periodo' => $newFormatDate,
-                        'tipo_combustible' => '',
-                        'producto' => '',
-                        'valor' => $value
-                    ];
-                    $kpi->insert($kpiData);
-                } else {
-                    echo "Los datos ya existen";
+        if(!empty($searchConcept))
+        {   
+            if(isset($indicator['nombreCorto']))
+            {
+                $long = count($searchConcept);
+                // GUADANDO TODOS LOS DATOS A LA TABLA PRINSIPAL DONDE RECORRERA CADA DATO
+                for ($i = 0; $i < $long; $i++) {
+                    $value = end($arrayValue[$i]);
+                    $newValue = $this->convertFloat($value);
+        
+                    $idConcept = $searchConcept[$i]['id'];
+                    $dataKpi = $this->searchKpiData($idConcept, $newValue, $newFormatDate);
+        
+                    if (empty($dataKpi)) {
+                        $kpiData = [
+                            'sucursal' => '900',
+                            'concepto_id' => $idConcept,
+                            'periodo' => $newFormatDate,
+                            'tipo_combustible' => '',
+                            'producto' => '',
+                            'valor' => $newValue
+                        ];
+                        $this->instanceKpi()->insert($kpiData);
+                    } else {
+        
+                        if ($dataKpi['concepto_id'] != $idConcept && $dataKpi['periodo'] != $newFormatDate && $dataKpi['valor'] != $newValue) {
+                            $kpiData = [
+                                'sucursal' => '900',
+                                'concepto_id' => $idConcept,
+                                'periodo' => $newFormatDate,
+                                'tipo_combustible' => '',
+                                'producto' => '',
+                                'valor' => $newValue
+                            ];
+                            $this->instanceKpi()->insert($kpiData);
+                        } else {
+                            $mensaje = '<div class="alert alert-success text-center" role="alert"> Datos existentes dentro del sistema </div>';
+                            return redirect()->to('kpi/rrhh')->with('menssage', $mensaje);
+                        }
+                    }
                 }
             }
+            else{
+                $mensaje = '<div class="alert alert-warning text-center" role="alert"> No existe el indicador dentro del sistema </div>';
+                return redirect()->to('kpi/rrhh')->with('menssage', $mensaje);
+            }
+        }else{
+            $mensaje = '<div class="alert alert-warning text-center" role="alert"> No existe el concepto dentro del sistema </div>';
+            return redirect()->to('kpi/rrhh')->with('menssage', $mensaje);
         }
     }
 }

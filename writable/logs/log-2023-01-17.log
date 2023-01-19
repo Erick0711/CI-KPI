@@ -82,3 +82,146 @@ in SYSTEMPATH\Database\Database.php on line 136.
  6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
  7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 13:23:29 --> Class "CodeIgniter\Database\mssql\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mssql', 'CodeIgniter\\Database\\mssql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(154): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\KpiController.php(96): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-17 13:25:32 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6272 in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('192.168.100.201', 'sa', 'Biopetrol2018.s...', 'dwh', 1433, '', 0)
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#11 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('192.168.100.201', 'sa', 'Biopetrol2018.s...', 'dwh', 1433, '', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-17 13:25:32 --> Unable to connect to the database.
+Main connection [MySqli]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+ 6 APPPATH\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-17 13:26:02 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6272 in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('192.168.100.201', 'sa', 'Biopetrol2018.s...', 'dwh', 1433, '', 0)
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#11 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('192.168.100.201', 'sa', 'Biopetrol2018.s...', 'dwh', 1433, '', 0)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\kpi-rrhh\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#7 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-17 13:26:02 --> Unable to connect to the database.
+Main connection [MySqli]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `indicador`
+WHERE `nombre` = :nombre:', [...], false)
+ 3 SYSTEMPATH\Model.php(805): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\IndicatorController.php(17): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+ 6 APPPATH\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-17 13:26:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'nombre'.
+CRITICAL - 2023-01-17 13:26:32 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\IndicatorController.php on line 18.
+ 1 APPPATH\Controllers\IndicatorController.php(25): App\Controllers\KpiController->searchIndicator('CAPACITACION')
+ 2 APPPATH\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

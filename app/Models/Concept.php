@@ -10,7 +10,7 @@ class Concept extends Model{
     protected $useAutoIncrement = true;
 
     protected $allowedFields  = [
-        'id_kpi',
+        'id_indicador',
         'descripcion'
     ];
 }

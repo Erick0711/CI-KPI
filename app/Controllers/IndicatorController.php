@@ -13,10 +13,10 @@ trait IndicatorController
 
     function searchIndicator($name)
     {
-        $query =  $this->instanceIndicator()->where('nombre', $name)
+        $query =  $this->instanceIndicator()->where('nombreCorto', $name)
                                             ->get();
         $data = $query->getRowArray();
-
+        
         return $data;
     }
 
@@ -26,14 +26,17 @@ trait IndicatorController
 
         if (empty($ArrayIndicator)) {
             $data = [
-                'nombre' => $indicador,
-                'detallado' => 'KPI RECURSOS HUMANOS',
+                'idIndicador' => '',
+                'orden' => '',
+                'nombreCorto' => $indicador,
+                'nombreLargo' => '(TT-HH)',
                 'tipo' => 'M',
-                'area' => 'RRHH'
+                'area' => 'Recursos Humanos',
+                'formula' => ''
             ];
             $this->instanceIndicator()->insert($data);
         } else {
-            if ($ArrayIndicator['nombre'] == $indicador) {
+            if ($ArrayIndicator['nombreCorto'] == $indicador) {
                 echo "El indicador ya existe";
             }
         }

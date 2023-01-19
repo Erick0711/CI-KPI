@@ -16,6 +16,7 @@ trait ConceptController
 
     function searchConcept($concepts)
     {
+        // print_r($concepts);
         $dataConcept = array();
         foreach ($concepts as $concept) {
             $query =    $this->instanceConcept()->where('descripcion', $concept)
@@ -24,6 +25,7 @@ trait ConceptController
             array_push($dataConcept, $data);
         }
         if (in_array(NULL, $dataConcept)) {
+            echo "El array esta vacio";
         } else {
             return ($dataConcept);
         }
@@ -59,13 +61,12 @@ trait ConceptController
         list($concepts, $indicador) = $arreglo;
         $indicador = $this->searchIndicator($indicador);
         $searchConcepts = $this->searchConcept($concepts);
-
         if(!empty($indicador)){
             if (empty($searchConcepts)) {
                 foreach ($concepts as $concept) {
-                    $id = $indicador['id'];
+                    $id = $indicador['idIndicador'];
                     $data = [
-                        'id_kpi' => $id,
+                        'id_indicador' => $id,
                         'descripcion' => $concept
                     ];
                     $this->instanceConcept()->insert($data);

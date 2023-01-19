@@ -1,0 +1,50 @@
+CRITICAL - 2023-01-19 06:53:07 --> Array to string conversion
+in APPPATH\Controllers\KpiController.php on line 124.
+ 1 APPPATH\Controllers\KpiController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\KpiController.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 06:53:59 --> Cannot access offset of type string on string
+in APPPATH\Controllers\KpiController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 06:54:15 --> Cannot access offset of type string on string
+in APPPATH\Controllers\KpiController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 07:16:22 --> The route for "rrhh/kpi" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('rrhh/kpi')
+ 2 SYSTEMPATH\Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\KpiController.php(161): redirect('rrhh/kpi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 07:28:36 --> Undefined variable $message
+in APPPATH\Views\rrhh\kpi.php on line 17.
+ 1 APPPATH\Views\rrhh\kpi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'APPPATH\\Views\\rrhh\\kpi.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rrhh\\kpi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/kpi', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('rrhh/kpi')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->ausentismo()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 07:29:35 --> Undefined variable $menssage
+in APPPATH\Views\rrhh\kpi.php on line 17.
+ 1 APPPATH\Views\rrhh\kpi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menssage', 'APPPATH\\Views\\rrhh\\kpi.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rrhh\\kpi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rrhh/kpi', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('rrhh/kpi')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->ausentismo()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

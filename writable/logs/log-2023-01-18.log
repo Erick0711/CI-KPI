@@ -1,0 +1,509 @@
+ERROR - 2023-01-18 06:17:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 06:17:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 06:17:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 06:17:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 06:22:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 06:22:29 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 06:22:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 06:22:35 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 06:23:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 06:23:54 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 06:27:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 06:27:35 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 06:31:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 06:38:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 06:40:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 06:41:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 06:50:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 06:52:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 06:54:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 06:57:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 07:11:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 07:11:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Login failed for user 'sa'. in C:\xampp\htdocs\kpi-rrhh\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dw...', Array, false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-18 07:11:43 --> Unable to connect to the database.
+Main connection [sqlsrv]: Login failed for user 'sa'.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dwh"."dbo"."indicador" ("orden","nombreCorto","nombreLargo","tipo","area","formula") VALUES (:orden:, :nombreCorto:, :nombreLargo:, :tipo:, :area:, :formula:)', [...], false)
+ 3 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\IndicatorController.php(34): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 07:11:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 07:12:05 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Login failed for user 'sa'.
+Cannot open database "dwhtr" requested by the login. The login failed. in C:\xampp\htdocs\kpi-rrhh\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dw...', Array, false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-18 07:12:05 --> Unable to connect to the database.
+Main connection [sqlsrv]: Login failed for user 'sa'.
+Cannot open database "dwhtr" requested by the login. The login failed.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dwhtr"."dbo"."indicador" ("orden","nombreCorto","nombreLargo","tipo","area","formula") VALUES (:orden:, :nombreCorto:, :nombreLargo:, :tipo:, :area:, :formula:)', [...], false)
+ 3 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\IndicatorController.php(34): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 07:12:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Login failed for user 'sass'. in C:\xampp\htdocs\kpi-rrhh\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\kpi-rrhh\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dw...', Array, false)
+#3 C:\xampp\htdocs\kpi-rrhh\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\kpi-rrhh\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\kpi-rrhh\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\kpi-rrhh\app\Controllers\IndicatorController.php(34): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\kpi-rrhh\app\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+#8 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+#9 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+#10 C:\xampp\htdocs\kpi-rrhh\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kpi-rrhh\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-18 07:12:14 --> Unable to connect to the database.
+Main connection [sqlsrv]: Login failed for user 'sass'.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dwh"."dbo"."indicador" ("orden","nombreCorto","nombreLargo","tipo","area","formula") VALUES (:orden:, :nombreCorto:, :nombreLargo:, :tipo:, :area:, :formula:)', [...], false)
+ 3 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\IndicatorController.php(34): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Controllers\KpiController.php(110): App\Controllers\KpiController->addIndicador('CAPACITACION')
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 07:12:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'idIndicador', table 'dwh.dbo.indicador'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 07:34:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 07:36:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 07:38:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idlndicador'.
+ERROR - 2023-01-18 07:39:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idlndicador'.
+ERROR - 2023-01-18 07:43:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 07:44:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+CRITICAL - 2023-01-18 07:44:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 07:45:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+CRITICAL - 2023-01-18 07:45:48 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 07:49:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 07:51:17 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 07:52:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 07:54:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 07:54:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+CRITICAL - 2023-01-18 07:54:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 07:59:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:03:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:05:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:07:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:08:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:10:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:10:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idlndicador'.
+ERROR - 2023-01-18 08:14:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idlndicador'.
+ERROR - 2023-01-18 08:15:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idlndicador'.
+ERROR - 2023-01-18 08:15:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:18:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:23:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (532).
+ERROR - 2023-01-18 08:24:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:24:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:28:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 08:33:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:04:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_kpi'.
+ERROR - 2023-01-18 11:05:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_indicador', table 'dwh.dbo.concepto'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 11:05:28 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 11:06:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_indicador', table 'dwh.dbo.concepto'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 11:06:01 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\KpiController.php on line 118.
+ 1 APPPATH\Controllers\KpiController.php(118): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 11:09:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_indicador', table 'dwh.dbo.concepto'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 11:14:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_indicador', table 'dwh.dbo.concepto'; column does not allow nulls. INSERT fails.
+ERROR - 2023-01-18 11:16:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_indicador', table 'dwh.dbo.concepto'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-18 11:18:13 --> Undefined array key 1
+in APPPATH\Controllers\DateController.php on line 13.
+ 1 APPPATH\Controllers\DateController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\DateController.php', 13)
+ 2 APPPATH\Controllers\DateController.php(45): App\Controllers\KpiController->newDate('202212')
+ 3 APPPATH\Controllers\KpiController.php(101): App\Controllers\KpiController->getYear('202212')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 11:18:29 --> Undefined array key 1
+in APPPATH\Controllers\DateController.php on line 13.
+ 1 APPPATH\Controllers\DateController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\DateController.php', 13)
+ 2 APPPATH\Controllers\DateController.php(45): App\Controllers\KpiController->newDate('202210')
+ 3 APPPATH\Controllers\KpiController.php(101): App\Controllers\KpiController->getYear('202210')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 11:32:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:33:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:33:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:35:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:36:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:38:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:39:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:40:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:41:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:42:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__indicado__1F4DEAEF6FE3C3DD'. Cannot insert duplicate key in object 'dbo.indicador'. The duplicate key value is (0).
+ERROR - 2023-01-18 11:53:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 11:53:42 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 89.
+ 1 APPPATH\Controllers\KpiController.php(122): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 11:57:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 11:57:20 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(123): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 11:58:14 --> print_r() expects at most 2 arguments, 3 given
+in APPPATH\Controllers\KpiController.php on line 93.
+ 1 APPPATH\Controllers\KpiController.php(93): print_r(5, '202210', '7,23%')
+ 2 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 11:58:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 11:58:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 11:59:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 11:59:22 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:00:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 12:00:22 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:00:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 12:03:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 12:03:40 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:09:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:09:29 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:10:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:10:55 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:14:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:14:03 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(126): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:14:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:14:27 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(124): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:14:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:14:57 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(126): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:15:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+ERROR - 2023-01-18 12:15:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:15:57 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(128): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:16:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:16:03 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(128): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:23:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:23:06 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(127): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:23:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:23:39 --> Call to a member function getRow() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(127): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:25:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:25:34 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(122): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:26:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:26:44 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(123): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:30:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:30:04 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(123): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:31:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:31:49 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(123): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:33:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:33:15 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(123): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:36:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:36:36 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(123): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:39:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:39:08 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(125): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:39:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:39:35 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(125): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:43:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '7,23%' to data type int.
+CRITICAL - 2023-01-18 12:43:37 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(125): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:44:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 12:44:11 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(125): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:45:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 12:45:49 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(126): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:47:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 12:47:01 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(127): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 12:51:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+CRITICAL - 2023-01-18 12:51:51 --> Call to a member function getRowArray() on bool
+in APPPATH\Controllers\KpiController.php on line 90.
+ 1 APPPATH\Controllers\KpiController.php(128): App\Controllers\KpiController->searchKpiData(5, '7,23%', '202210')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 13:18:32 --> A non-numeric value encountered
+in APPPATH\Controllers\KpiController.php on line 127.
+ 1 APPPATH\Controllers\KpiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\KpiController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KpiController->addAll()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KpiController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 13:32:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 13:33:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 13:33:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 13:35:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.
+ERROR - 2023-01-18 13:36:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to float.

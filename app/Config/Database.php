@@ -36,7 +36,7 @@ class Database extends Config
         'username' => 'sa',
         'password' => 'Biopetrol2018.sa',
         'database' => 'dwh',
-        'DBDriver' => 'mssql',
+        'DBDriver' => 'sqlsrv',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),

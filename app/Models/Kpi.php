@@ -4,7 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class Kpi extends Model{
-    protected $table = 'kpi_data';
+    protected $table = 'kpi_tthh';
     // Uncomment below if you want add primary key
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
